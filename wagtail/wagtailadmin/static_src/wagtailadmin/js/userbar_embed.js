@@ -44,9 +44,11 @@
     f.src = w.wagtail.userbar.src;
 
     // if postMessage is supported, hide iframe till it is loaded
+    /*
     if (w.postMessage) {
         f.style.opacity = 0;
     }
+    */
 
     t = d.getElementsByTagName('title')[0];
     t.parentNode.insertBefore(l, t.nextSibling);
